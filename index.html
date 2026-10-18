@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forever Open - Day 1</title>
+<style>
+body { margin:0; padding:32px; background:#10141c; color:#edf0f5;
+       font:15px/1.5 system-ui,sans-serif; }
+main { max-width:1280px; margin:auto; }
+h1 { font-size:26px; margin:0 0 8px; }
+p { color:#bac3d2; max-width:980px; }
+a { color:#9fd3ff; }
+.table-wrap { overflow-x:auto; margin:24px 0; border:1px solid #394251; border-radius:8px; }
+table { width:100%; min-width:1040px; border-collapse:separate; border-spacing:0; text-align:center; }
+th,td { padding:14px 10px; border-right:1px solid #394251; border-bottom:1px solid #394251; }
+tr > :last-child { border-right:0; }
+tbody tr:last-child > * { border-bottom:0; }
+th { background:#252d3b; font-weight:700; }
+.class-name { color:#fff; font-weight:700;
+              text-shadow:-1px -1px 0 #242424,1px -1px 0 #242424,
+                          -1px 1px 0 #242424,1px 1px 0 #242424,0 1px 3px #000; }
+tbody th { text-align:left; }
+td { background:#1a2230; font-variant-numeric:tabular-nums; }
+tbody tr:nth-child(even) td { background:#202a3a; }
+td strong { display:block; font-size:16px; font-weight:600; }
+.sample { display:block; font-size:12px; color:#aebace; }
+td.mirror { background:#141a24 !important; color:#697588; }
+.failure { color:#ffacac; }
+@media print { body { background:white; color:black; padding:0; }
+  * { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  .table-wrap { overflow:visible; } table { min-width:0; font-size:10px; }
+  th,td { padding:8px 4px; } td { color:#edf0f5; } }
+</style></head><body><main>
+<h1>The Forever Open - Day 1</h1>
+
+<p>Read left class against top class. BIG NUMBER = Win rate in %, small number = number of duels, hover over small number for more details.
+  This data excludes duels that were made against a disqualified opponent.
+</p>
+<div class="table-wrap"><table aria-label="Class versus class decisive win rates">
+<thead><tr><th scope="col">Class</th>
+<th scope="col" class="class-name" style="background-color:#C79C6E">Warrior</th>
+<th scope="col" class="class-name" style="background-color:#F58CBA">Paladin</th>
+<th scope="col" class="class-name" style="background-color:#ABD473">Hunter</th>
+<th scope="col" class="class-name" style="background-color:#FFF569">Rogue</th>
+<th scope="col" class="class-name" style="background-color:#FFFFFF">Priest</th>
+<th scope="col" class="class-name" style="background-color:#0070DE">Shaman</th>
+<th scope="col" class="class-name" style="background-color:#69CCF0">Mage</th>
+<th scope="col" class="class-name" style="background-color:#9482C9">Warlock</th>
+<th scope="col" class="class-name" style="background-color:#FF7D0A">Druid</th>
+</tr></thead><tbody>
+<tr><th scope="row" class="class-name" style="background-color:#C79C6E">Warrior</th>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Warrior vs Paladin: 8 wins, 43 losses, 0 draws"><strong>15.7%</strong><span class="sample">(51)</span></td>
+<td title="Warrior vs Hunter: 48 wins, 49 losses, 0 draws"><strong>49.5%</strong><span class="sample">(97)</span></td>
+<td title="Warrior vs Rogue: 29 wins, 36 losses, 0 draws"><strong>44.6%</strong><span class="sample">(65)</span></td>
+<td title="Warrior vs Priest: 20 wins, 60 losses, 0 draws"><strong>25.0%</strong><span class="sample">(80)</span></td>
+<td title="Warrior vs Shaman: 50 wins, 39 losses, 1 draws"><strong>56.2%</strong><span class="sample">(89)</span></td>
+<td title="Warrior vs Mage: 9 wins, 20 losses, 0 draws"><strong>31.0%</strong><span class="sample">(29)</span></td>
+<td title="Warrior vs Warlock: 16 wins, 41 losses, 0 draws"><strong>28.1%</strong><span class="sample">(57)</span></td>
+<td title="Warrior vs Druid: 12 wins, 31 losses, 0 draws"><strong>27.9%</strong><span class="sample">(43)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#F58CBA">Paladin</th>
+<td title="Paladin vs Warrior: 43 wins, 8 losses, 0 draws"><strong>84.3%</strong><span class="sample">(51)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Paladin vs Hunter: 109 wins, 54 losses, 0 draws"><strong>66.9%</strong><span class="sample">(163)</span></td>
+<td title="Paladin vs Rogue: 66 wins, 44 losses, 1 draws"><strong>60.0%</strong><span class="sample">(110)</span></td>
+<td title="Paladin vs Priest: 84 wins, 55 losses, 5 draws"><strong>60.4%</strong><span class="sample">(139)</span></td>
+<td title="Paladin vs Shaman: 95 wins, 45 losses, 0 draws"><strong>67.9%</strong><span class="sample">(140)</span></td>
+<td title="Paladin vs Mage: 28 wins, 35 losses, 0 draws"><strong>44.4%</strong><span class="sample">(63)</span></td>
+<td title="Paladin vs Warlock: 58 wins, 56 losses, 0 draws"><strong>50.9%</strong><span class="sample">(114)</span></td>
+<td title="Paladin vs Druid: 34 wins, 16 losses, 0 draws"><strong>68.0%</strong><span class="sample">(50)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#ABD473">Hunter</th>
+<td title="Hunter vs Warrior: 49 wins, 48 losses, 0 draws"><strong>50.5%</strong><span class="sample">(97)</span></td>
+<td title="Hunter vs Paladin: 54 wins, 109 losses, 0 draws"><strong>33.1%</strong><span class="sample">(163)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Hunter vs Rogue: 92 wins, 138 losses, 1 draws"><strong>40.0%</strong><span class="sample">(230)</span></td>
+<td title="Hunter vs Priest: 126 wins, 165 losses, 0 draws"><strong>43.3%</strong><span class="sample">(291)</span></td>
+<td title="Hunter vs Shaman: 206 wins, 129 losses, 1 draws"><strong>61.5%</strong><span class="sample">(335)</span></td>
+<td title="Hunter vs Mage: 59 wins, 53 losses, 0 draws"><strong>52.7%</strong><span class="sample">(112)</span></td>
+<td title="Hunter vs Warlock: 74 wins, 112 losses, 0 draws"><strong>39.8%</strong><span class="sample">(186)</span></td>
+<td title="Hunter vs Druid: 57 wins, 57 losses, 0 draws"><strong>50.0%</strong><span class="sample">(114)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#FFF569">Rogue</th>
+<td title="Rogue vs Warrior: 36 wins, 29 losses, 0 draws"><strong>55.4%</strong><span class="sample">(65)</span></td>
+<td title="Rogue vs Paladin: 44 wins, 66 losses, 1 draws"><strong>40.0%</strong><span class="sample">(110)</span></td>
+<td title="Rogue vs Hunter: 138 wins, 92 losses, 1 draws"><strong>60.0%</strong><span class="sample">(230)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Rogue vs Priest: 47 wins, 136 losses, 1 draws"><strong>25.7%</strong><span class="sample">(183)</span></td>
+<td title="Rogue vs Shaman: 131 wins, 77 losses, 0 draws"><strong>63.0%</strong><span class="sample">(208)</span></td>
+<td title="Rogue vs Mage: 27 wins, 56 losses, 0 draws"><strong>32.5%</strong><span class="sample">(83)</span></td>
+<td title="Rogue vs Warlock: 44 wins, 82 losses, 0 draws"><strong>34.9%</strong><span class="sample">(126)</span></td>
+<td title="Rogue vs Druid: 48 wins, 40 losses, 0 draws"><strong>54.5%</strong><span class="sample">(88)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#FFFFFF">Priest</th>
+<td title="Priest vs Warrior: 60 wins, 20 losses, 0 draws"><strong>75.0%</strong><span class="sample">(80)</span></td>
+<td title="Priest vs Paladin: 55 wins, 84 losses, 5 draws"><strong>39.6%</strong><span class="sample">(139)</span></td>
+<td title="Priest vs Hunter: 165 wins, 126 losses, 0 draws"><strong>56.7%</strong><span class="sample">(291)</span></td>
+<td title="Priest vs Rogue: 136 wins, 47 losses, 1 draws"><strong>74.3%</strong><span class="sample">(183)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Priest vs Shaman: 98 wins, 132 losses, 1 draws"><strong>42.6%</strong><span class="sample">(230)</span></td>
+<td title="Priest vs Mage: 59 wins, 38 losses, 1 draws"><strong>60.8%</strong><span class="sample">(97)</span></td>
+<td title="Priest vs Warlock: 57 wins, 93 losses, 2 draws"><strong>38.0%</strong><span class="sample">(150)</span></td>
+<td title="Priest vs Druid: 43 wins, 40 losses, 14 draws"><strong>51.8%</strong><span class="sample">(83)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#0070DE">Shaman</th>
+<td title="Shaman vs Warrior: 39 wins, 50 losses, 1 draws"><strong>43.8%</strong><span class="sample">(89)</span></td>
+<td title="Shaman vs Paladin: 45 wins, 95 losses, 0 draws"><strong>32.1%</strong><span class="sample">(140)</span></td>
+<td title="Shaman vs Hunter: 129 wins, 206 losses, 1 draws"><strong>38.5%</strong><span class="sample">(335)</span></td>
+<td title="Shaman vs Rogue: 77 wins, 131 losses, 0 draws"><strong>37.0%</strong><span class="sample">(208)</span></td>
+<td title="Shaman vs Priest: 132 wins, 98 losses, 1 draws"><strong>57.4%</strong><span class="sample">(230)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Shaman vs Mage: 52 wins, 50 losses, 0 draws"><strong>51.0%</strong><span class="sample">(102)</span></td>
+<td title="Shaman vs Warlock: 83 wins, 81 losses, 0 draws"><strong>50.6%</strong><span class="sample">(164)</span></td>
+<td title="Shaman vs Druid: 77 wins, 31 losses, 4 draws"><strong>71.3%</strong><span class="sample">(108)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#69CCF0">Mage</th>
+<td title="Mage vs Warrior: 20 wins, 9 losses, 0 draws"><strong>69.0%</strong><span class="sample">(29)</span></td>
+<td title="Mage vs Paladin: 35 wins, 28 losses, 0 draws"><strong>55.6%</strong><span class="sample">(63)</span></td>
+<td title="Mage vs Hunter: 53 wins, 59 losses, 0 draws"><strong>47.3%</strong><span class="sample">(112)</span></td>
+<td title="Mage vs Rogue: 56 wins, 27 losses, 0 draws"><strong>67.5%</strong><span class="sample">(83)</span></td>
+<td title="Mage vs Priest: 38 wins, 59 losses, 1 draws"><strong>39.2%</strong><span class="sample">(97)</span></td>
+<td title="Mage vs Shaman: 50 wins, 52 losses, 0 draws"><strong>49.0%</strong><span class="sample">(102)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Mage vs Warlock: 15 wins, 47 losses, 0 draws"><strong>24.2%</strong><span class="sample">(62)</span></td>
+<td title="Mage vs Druid: 20 wins, 26 losses, 0 draws"><strong>43.5%</strong><span class="sample">(46)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#9482C9">Warlock</th>
+<td title="Warlock vs Warrior: 41 wins, 16 losses, 0 draws"><strong>71.9%</strong><span class="sample">(57)</span></td>
+<td title="Warlock vs Paladin: 56 wins, 58 losses, 0 draws"><strong>49.1%</strong><span class="sample">(114)</span></td>
+<td title="Warlock vs Hunter: 112 wins, 74 losses, 0 draws"><strong>60.2%</strong><span class="sample">(186)</span></td>
+<td title="Warlock vs Rogue: 82 wins, 44 losses, 0 draws"><strong>65.1%</strong><span class="sample">(126)</span></td>
+<td title="Warlock vs Priest: 93 wins, 57 losses, 2 draws"><strong>62.0%</strong><span class="sample">(150)</span></td>
+<td title="Warlock vs Shaman: 81 wins, 83 losses, 0 draws"><strong>49.4%</strong><span class="sample">(164)</span></td>
+<td title="Warlock vs Mage: 47 wins, 15 losses, 0 draws"><strong>75.8%</strong><span class="sample">(62)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+<td title="Warlock vs Druid: 50 wins, 31 losses, 0 draws"><strong>61.7%</strong><span class="sample">(81)</span></td>
+</tr>
+<tr><th scope="row" class="class-name" style="background-color:#FF7D0A">Druid</th>
+<td title="Druid vs Warrior: 31 wins, 12 losses, 0 draws"><strong>72.1%</strong><span class="sample">(43)</span></td>
+<td title="Druid vs Paladin: 16 wins, 34 losses, 0 draws"><strong>32.0%</strong><span class="sample">(50)</span></td>
+<td title="Druid vs Hunter: 57 wins, 57 losses, 0 draws"><strong>50.0%</strong><span class="sample">(114)</span></td>
+<td title="Druid vs Rogue: 40 wins, 48 losses, 0 draws"><strong>45.5%</strong><span class="sample">(88)</span></td>
+<td title="Druid vs Priest: 40 wins, 43 losses, 14 draws"><strong>48.2%</strong><span class="sample">(83)</span></td>
+<td title="Druid vs Shaman: 31 wins, 77 losses, 4 draws"><strong>28.7%</strong><span class="sample">(108)</span></td>
+<td title="Druid vs Mage: 26 wins, 20 losses, 0 draws"><strong>56.5%</strong><span class="sample">(46)</span></td>
+<td title="Druid vs Warlock: 31 wins, 50 losses, 0 draws"><strong>38.3%</strong><span class="sample">(81)</span></td>
+<td class="mirror" aria-label="Mirror matchup omitted">---</td>
+</tr>
+</tbody>
+</table></div>
+<nav aria-label="Dataset downloads">
+<p>Download CSV: <a href="duels.csv" download>Duels</a> ·
+<a href="class_matchups.csv" download>Class matchups</a> ·
+<a href="class_summary.csv" download>Class summary</a> ·
+<a href="excluded_matches.csv" download>Excluded matches</a></p>
+</nav>
+</main></body></html>
